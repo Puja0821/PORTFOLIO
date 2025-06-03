@@ -144,3 +144,16 @@ article p {
   color: white; 
 }
 
+body.dark-mode {
+      background-color: #121212;
+      color: white;
+    }
+    #mode-toggle {
+      cursor: pointer;
+      font-size: 2rem;
+      border: none;
+      background: transparent;
+      transition: color 0.3s ease;
+      outline: none;
+    }
+
